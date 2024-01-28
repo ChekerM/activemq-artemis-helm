@@ -3,9 +3,9 @@ image:
   # image.registry is the repository where the ActiveMQ Artemis image is stored
   registry: docker.io
   # image.repository is the ActiveMQ Artemis image name
-  repository: vromero/activemq-artemis
+  repository: apache/activemq-artemis
   # image.tag is the ActiveMQ Artemis image's tag: https://hub.docker.com/r/vromero/activemq-artemis/tags
-  tag: latest
+  tag: 2.31.2
   # image.pullPolicy is the ActiveMQ Artemis image's pull policy
   pullPolicy: Always
   # image.pullSecrets optionally specify an array of imagePullSecrets.Secrets must be manually created in the namespace.
